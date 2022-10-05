@@ -18,5 +18,9 @@ let etaUtente = prompt( 'Quanti anni hai ? ');
 
 console.log(nomeUtente, cognomeUtente, coloreUtente, etaUtente);
 
-document.getElementById("main_title").innerHTML =
-   nomeUtente + cognomeUtente + coloreUtente + etaUtente;
+// document.getElementById("main_title").innerHTML =
+//    nomeUtente + cognomeUtente + coloreUtente + etaUtente;
+document.getElementById('main_title').innerHTML =
+`
+${nomeUtente} ${cognomeUtente} ${coloreUtente} ${etaUtente}
+`;
